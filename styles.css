@@ -1,0 +1,237 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: auto !important;
+  --base-font-size: 20px;
+}
+.fontbold {
+  font-weight: 700;
+}
+.small-medium-font-size {
+  font-size: 90px;
+}
+.middle-font-size {
+  font-size: 2rem;
+}
+.big-font-size {
+  font-size: 2.5rem;
+}
+.padding-left-right {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.padding-up-down {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+body {
+  background-color: rgb(105, 100, 138);
+  max-width: 100%;
+    border: 6px solid;
+  font-family: Merriweather, serif;
+  line-height: 1.5;
+}
+.frame {
+  border-width: 8px;
+  background-color: #c0c0c0c0;
+  padding-bottom: 70px;
+  border-style: ridge;
+  border-radius: 0%;
+  max-width: 100%;
+  border: 6px;
+  border-color: linear-gradient(90deg, c0c0c0c0, c1c1c1c1);
+  border-image-slice: 1;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#photo {
+  display: flex;
+  justify-content: center;
+  padding: 90px;
+}
+img {
+  border-color: #a29996;
+  border-radius: 99%;
+  height: 350px;
+  width:350px ;
+  border-width: 8px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: Playfair Display, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  text-rendering: optimizeLegibility;
+}
+h1 {
+  text-align: center;
+  margin: 40px;
+  font-size: 4rem;
+  margin: 0.67em;
+}
+h3 {
+  text-align: center;
+  margin: 30px 0px;
+  font-size: 2.5rem;
+}
+.intouch {
+  font-size: 2rem;
+  margin: 0.67em;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.resume01{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.resume1{
+    font-family:Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-size: 2rem;
+  font-style: bold;
+  margin: 5px;
+  padding: 5px;
+}
+.resume:hover{
+    color: #54aeff;
+    background-color: #f3f3f3;
+    border-radius: 30px; 
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+.twitter1 {
+  font-family: TwitterChirp;
+  font-size: 24px;
+  font-size: 2rem;
+  font-style: bold;
+  margin: 5px;
+  padding: 5px;
+}
+.twitter1:hover {
+  color: #1da1f2;
+  background-color: #f3f3f3;
+  border-radius: 30px;
+}
+.instagram1 {
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-size: 2rem;
+  font-style: italic;
+  margin: 5px;
+  padding: 5px;
+}
+.instagram1:hover {
+  color: #444;
+  background-color: #f3f3f3;
+  border-radius: 30px;
+}
+.linkedin1 {
+  font-family: "myriad";
+  font-size: 24px;
+  font-size: 2rem;
+  font-style: bold;
+  margin: 5px;
+  padding: 5px;
+}
+.linkedinspan {
+  color: #1da1f2;
+}
+.linkedin1:hover {
+  color: #444;
+  background-color: #f3f3f3;
+  border-radius: 30px;
+}
+.github1 {
+  font-family: "Segoe UI Emoji";
+  font-size: 24px;
+  font-size: 2rem;
+  font-style: bold;
+  margin: 5px;
+  padding: 5px;
+}
+.github1:hover {
+  color: #54aeff;
+  background-color: #f3f3f3;
+  border-radius: 30px;
+}
+.contact-me {
+  border-width: 2px;
+  border-color: #d4af37;
+}
+#button {
+  border-radius: 5px;
+  border-color: grey;
+  border-block-style: calc();
+  border-block-start-color: aqua;
+  border-block-end-color: rgb(186, 5, 231);
+}
+.mail-link,
+a {
+  color: #36454f;
+  text-decoration: solid;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border-style: double;
+  border-color: grey;
+  border-block-style: calc();
+  border-block-start-color: aqua;
+  border-block-end-color: rgb(186, 5, 231);
+}
+.mail-link:hover,
+a:hover {
+  color: black;
+  transition-duration: 1s;
+}
+.fieldset1 {
+  display: flex;
+  justify-content: center;
+  border-style: none;
+}
+#suggestion {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.designed-by {
+  background-color: #d5d5d7;
+  border-radius: 10px;
+  border-style: double;
+  border-color: grey;
+  border-block-style: calc();
+  border-block-start-color: aqua;
+  border-block-end-color: rgb(186, 5, 231);
+}
+.suggestion,
+button {
+  text-align: center;
+}
+#button-div {
+  width: 100%;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
