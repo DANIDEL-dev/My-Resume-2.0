@@ -31,7 +31,7 @@ body {
   font-family: Merriweather, serif;
   line-height: 1.5;
 }
-.frame {
+#frame {
   border-width: 8px;
   background-color: #c0c0c0c0;
   padding-bottom: 70px;
